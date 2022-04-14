@@ -1,6 +1,6 @@
 """
-Author: [Your name here]
-Assignment / Part: HW8 - Q1 (etc.)
+Author: Noa Kirschbaum
+Assignment / Part: HW8 - Q1
 Date due: 2022-04-14
 I pledge that I have completed this assignment without
 collaborating with anyone else, in conformance with the
@@ -24,6 +24,7 @@ def get_unformatted_text(file_name):
         file = open(file_name, 'r')
     except FileNotFoundError:
         return lst_lines
+
     #write to new list
     for line in file:
         lst_lines.append(line.strip())
