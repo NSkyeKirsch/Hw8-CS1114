@@ -44,7 +44,7 @@ def print_formatted_latin(input_file_path):
         print(format_latin_text(item))
 
 def main():
-    print_formatted_latin("assets/files/imperatoria.txt")
+    print_formatted_latin("assets/files/imperatoria_verba.txt")
 
 if __name__ == "__main__":
     main()
